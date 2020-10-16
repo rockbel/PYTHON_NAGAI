@@ -23,7 +23,6 @@ def dirdialog_clicked():
 def conductMain():
     text = entry1.get()
     subprocess.call(r"python C:\Users\utkn009\Desktop\Python\PdfConvetExe.py " + text)
-    # 
     # dirPath = entry1.get()
     # filePath = entry2.get()
     # if dirPath:
